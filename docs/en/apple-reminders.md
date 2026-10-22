@@ -4,40 +4,11 @@ If your to-dos currently live in Reminders on your iPhone or Mac, you can move t
 
 After the move, we suggest **jotting new things straight into the Notion Inbox** rather than using both. Two lists drift apart quickly.
 
-## Option A: let Claude read Reminders directly (easiest)
+This is how the author moved over: one command on a Mac exports the whole Reminders database, and you hand it to Claude. **Every list, the order, sections, subtasks, notes and due dates all come along**, so nothing is missed and nothing gets reshuffled.
 
-On some devices the Claude app can read your Reminders, for example on an iPhone where you've granted Claude access to Reminders. If yours can, say in the project chat:
+You need: a Mac signed in to the same Apple ID, and a Claude that can read files and run code to analyse them (for example a Claude app chat where you can upload files). If your iPhone syncs Reminders with iCloud, the Mac has the same data.
 
-> Read the unfinished items in my Reminders list "<list name>" and add each one to the Notion Inbox. Copy titles as they are, put any notes in the page body, and put due dates in "Planned for". List them for me when you're done.
-
-If Claude says it can't read Reminders, use option B, C or D.
-
-## Option B: copy and paste (works anywhere)
-
-1. In Reminders on a Mac, open a list, press `Cmd + A` to select all, then `Cmd + C` to copy.
-   On an iPhone, copy items one by one, or use option C.
-2. Paste into the project chat and add:
-
-   > These are to-dos copied from Reminders, one per line. Please add each to the Notion Inbox and list them for me when you're done.
-
-## Option C: export with Shortcuts
-
-In the Shortcuts app, build a shortcut:
-
-1. "Find Reminders" where "Is Completed" is off, from the list you want
-2. "Get Name" from the input (or "Get Details of Reminders → Title")
-3. "Combine Text" with "New Lines"
-4. "Copy to Clipboard"
-
-Run it, paste into the Claude chat, then follow step 2 of option B.
-
-## Option D: export the whole Reminders database on a Mac (most complete)
-
-This is how the author moved over. The options above mostly get you titles only, and can **miss subtasks and lose the order**. Option D copies the Reminders database straight off your Mac, so **every list, the order, sections, subtasks, notes and due dates all come along**. Good when you have many lists or items, or want an untouched copy to check against.
-
-You need: a Mac signed in to the same Apple ID, and a Claude that can read files and run code to analyse them (for example a Claude app chat where you can upload files).
-
-### Step 1: give Terminal permission
+## Step 1: give Terminal permission
 
 macOS protects Reminders data, so Terminal can't read it by default.
 
@@ -47,7 +18,7 @@ macOS protects Reminders data, so Terminal can't read it by default.
 
 You can switch this permission off again after exporting.
 
-### Step 2: run the export command
+## Step 2: run the export command
 
 Paste this whole block into Terminal and press Return:
 
@@ -67,7 +38,7 @@ The command only **copies** the data (using `sqlite3 .backup`, so it's fine if R
 | `Operation not permitted` when you type `ls` | Same | Same |
 | The prompt changed from `~` to `Stores` | The command moved into the Reminders data folder; that's normal | Ignore it; type `cd ~` or reopen Terminal to go back |
 
-### Step 3: give the zip to Claude
+## Step 3: give the zip to Claude
 
 Upload `reminders_export.zip` to the project chat, then send:
 
@@ -77,7 +48,7 @@ Upload `reminders_export.zip` to the project chat, then send:
 >
 > First tell me how many items each list has. Then create a page "Reminders (original)" under the Action Board and write everything in exactly as it appears in the app, in the same list order and item order: one heading per list, a smaller heading per section, one checkbox per item, subtasks indented. Don't change a word.
 
-### Step 4: check, then import into the Inbox
+## Step 4: check, then import into the Inbox
 
 Compare the "Reminders (original)" page with Reminders on your phone or Mac: are the counts and order right? Once they are, say:
 

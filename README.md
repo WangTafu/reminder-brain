@@ -8,6 +8,8 @@
 
 Setting it up takes no code and no software: copy a few pieces of text from [`prompts/en/`](prompts/en/) to Claude, and it builds the tables in your Notion and learns the rules. The rules are plain text, so you can change anything.
 
+> 🔍 **See it in action first**: the [reminder-brain example page](https://reminder-brain.notion.site/reminder-brain-Example-4002191a0dfe80ae81eaef157ec527b0) is a public example built in Notion, with made-up items. Open it to see what the finished setup looks like, or duplicate it into your own Notion for reference.
+
 > 👉 **Want to jump in?** See [Get started in 5 steps](#get-started-in-5-steps) below, or the full walkthrough in [`docs/en/setup.md`](docs/en/setup.md).
 
 ---
@@ -22,6 +24,7 @@ reminder-brain works like this:
 - **Let Claude tidy**: just say "tidy up my board" in your Claude chat, and Claude goes through your Notion and cleans up by the rules already written for it.
 - **You make the calls that matter**: Claude suggests where things go; you confirm with a tap on a choice card.
 - ⭐ **Everything you've done stays, becoming your personal knowledge base**: **every item you log is kept in Notion. You can ask Claude to analyse what you've been doing over the long and short term, to help you plan and build a personal knowledge base.**
+- ⭐ **Already in the habit of using Apple Reminders? No need to start over**: one command on a Mac exports all of Reminders for Claude, and every list, the order, sections and subtasks move into Notion as they are. Nothing you've noted is lost, and Claude helps you tidy it up from there. That's how we moved over ourselves; see [`docs/en/apple-reminders.md`](docs/en/apple-reminders.md).
 
 ## How it works
 
@@ -62,8 +65,6 @@ flowchart LR
 
 Full steps in [`docs/en/setup.md`](docs/en/setup.md).
 
-> 📥 **Your to-dos are in Apple Reminders?** That's where ours came from too: one command on a Mac exports the whole Reminders database, you hand it to Claude, and every list, the order, sections and subtasks move into Notion as they are. The command and steps are in option D of [`docs/en/apple-reminders.md`](docs/en/apple-reminders.md).
-
 ## What's in the repo
 
 ```
@@ -79,7 +80,7 @@ docs/en/  docs/zh/
   setup.md                      Detailed setup
   customize.md                  Changing categories, stars, reminder time, the tidy-up flow
   notion-limits.md              What Claude can change and what you click in Notion
-  apple-reminders.md            Optional: import from Apple Reminders (incl. full Mac export)
+  apple-reminders.md            Optional: import from Apple Reminders (full Mac export)
   faq.md                        FAQ
   example.md                    Example: before and after one tidy-up
 ```

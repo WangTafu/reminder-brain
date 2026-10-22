@@ -8,6 +8,8 @@
 
 搭起来不用写代码，也不用装任何软件：把 [`prompts/zh/`](prompts/zh/) 里的几段文字复制给 Claude，它就会在你的 Notion 里建好表、记住整理规则。规则全部是普通文字，想怎么改都行。
 
+> 🔍 **先看看效果**：[reminder-brain 示例页](https://reminder-brain.notion.site/reminder-brain-Example-4002191a0dfe80ae81eaef157ec527b0)是用 Notion 搭好的公开示例，条目都是虚构的。打开就能看到搭好以后长什么样，也可以复制到自己的 Notion 里参考。
+
 > 👉 **想直接上手？** 看下面的 [5 步上手](#5-步上手)，详细步骤见 [`docs/zh/setup.md`](docs/zh/setup.md)。
 
 ---
@@ -22,6 +24,7 @@ reminder-brain 的做法是：
 - **整理交给 Claude**：可以和你的 Claude 对话框说一句「整理执行页」，Claude 读一遍你的 Notion，按已经写好的规则帮你收拾。
 - **重要的决定你来做**：分到哪一类，Claude 给建议，你在选择卡片上点一下确认。
 - ⭐ **做过的事都会留下来，成为你的个人信息库**：**所有你录入的事项都会保存在 Notion 里。你可以让 Claude 大脑对你长期、短期做的事情进行分析，更有利于你做规划、构建个人信息库。**
+- ⭐ **已经习惯用 Apple 提醒事项记事？不用从头再来**：在 Mac 上用一条命令把整个提醒事项导出来交给 Claude，所有列表、顺序、分组、子任务都能原样搬进 Notion，之前记下的东西一条不丢，再由 Claude 帮你慢慢整理。我们自己就是这样搬过来的，步骤见 [`docs/zh/apple-reminders.md`](docs/zh/apple-reminders.md)。
 
 ## 它是怎么运作的
 
@@ -62,8 +65,6 @@ flowchart LR
 
 详细步骤见 [`docs/zh/setup.md`](docs/zh/setup.md)。
 
-> 📥 **原来的待办在 Apple 提醒事项里？** 我们自己就是从提醒事项搬过来的：在 Mac 上用一条命令导出整个提醒事项数据库，交给 Claude，所有列表、顺序、分组、子任务都能原样搬进 Notion。命令和步骤见 [`docs/zh/apple-reminders.md`](docs/zh/apple-reminders.md) 的方法 D。
-
 ## 仓库里有什么
 
 ```
@@ -79,7 +80,7 @@ docs/zh/  docs/en/
   setup.md                      详细搭建步骤
   customize.md                  怎么改：分类、打星、提醒时间、整理流程
   notion-limits.md              Claude 能改什么，什么要你自己在 Notion 里点
-  apple-reminders.md            可选：从 Apple 提醒事项导入（含 Mac 整库导出）
+  apple-reminders.md            可选：从 Apple 提醒事项导入（Mac 整库导出）
   faq.md                        常见问题
   example.md                    示例：一次整理前后的样子
 ```
