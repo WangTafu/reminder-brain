@@ -14,6 +14,8 @@ Setting it up takes no code and no software: copy a few pieces of text from [`pr
 
 > 🔍 **See it in action first**: the [reminder-brain example page](https://reminder-brain.notion.site/reminder-brain-Example-4002191a0dfe80ae81eaef157ec527b0) is a public example built in Notion, with made-up items. Open it to see what the finished setup looks like, or duplicate it into your own Notion for reference.
 
+> 🤖 **Works with Claude and ChatGPT**: same prompts for both; ChatGPT users see [`docs/en/chatgpt.md`](docs/en/chatgpt.md).
+
 > 👉 **Want to jump in?** See [Get started in 5 steps](#get-started-in-5-steps) below, or the full walkthrough in [`docs/en/setup.md`](docs/en/setup.md).
 
 ---
@@ -86,6 +88,7 @@ docs/en/  docs/zh/
   notion-limits.md              What Claude can change and what you click in Notion
   apple-reminders.md            Optional: import from Apple Reminders (full Mac export)
   faq.md                        FAQ
+  chatgpt.md                    Notes for ChatGPT users
   example.md                    Example: before and after one tidy-up
 ```
 
@@ -96,7 +99,7 @@ Everything can change: categories and groups, the star rating, the reminder time
 ## Requirements
 
 - A Notion account (free plan is enough)
-- A Claude account with Projects and the Notion connector
+- A Claude account with Projects and the Notion connector (or a ChatGPT account, see [`docs/en/chatgpt.md`](docs/en/chatgpt.md))
 - (Optional) scheduled tasks, for the weekly reminder
 
 ## License

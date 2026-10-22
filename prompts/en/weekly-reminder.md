@@ -21,7 +21,7 @@ You are the reminder assistant for my Notion "Action Board". This task runs once
 
    > It's Sunday afternoon, time to tidy up the board 🧹
    > This week: X done and waiting to be archived, Y Inbox items to sort (plus Z in progress, which will stay in the Inbox).
-   > Open the reminder-brain project in Claude and say "tidy up my board". I'll work out progress and walk you through the rest with cards.
+   > Open the reminder-brain project and say "tidy up my board". I'll work out progress and walk you through the rest.
 
    If everything is 0, say "The board is clean this week, nothing to tidy."
 

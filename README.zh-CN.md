@@ -14,6 +14,8 @@
 
 > 🔍 **先看看效果**：[reminder-brain 示例页](https://reminder-brain.notion.site/reminder-brain-Example-4002191a0dfe80ae81eaef157ec527b0)是用 Notion 搭好的公开示例，条目都是虚构的。打开就能看到搭好以后长什么样，也可以复制到自己的 Notion 里参考。
 
+> 🤖 **Claude 和 ChatGPT 都能用**：提示词是同一份，用 ChatGPT 的注意事项见 [`docs/zh/chatgpt.md`](docs/zh/chatgpt.md)。
+
 > 👉 **想直接上手？** 看下面的 [5 步上手](#5-步上手)，详细步骤见 [`docs/zh/setup.md`](docs/zh/setup.md)。
 
 ---
@@ -86,6 +88,7 @@ docs/zh/  docs/en/
   notion-limits.md              Claude 能改什么，什么要你自己在 Notion 里点
   apple-reminders.md            可选：从 Apple 提醒事项导入（Mac 整库导出）
   faq.md                        常见问题
+  chatgpt.md                    用 ChatGPT 的注意事项
   example.md                    示例：一次整理前后的样子
 ```
 
@@ -96,7 +99,7 @@ docs/zh/  docs/en/
 ## 需要什么
 
 - Notion 账号（免费版就够）
-- 能用「项目」和 Notion 连接器的 Claude 账号
+- 能用「项目」和 Notion 连接器的 Claude 账号（或 ChatGPT 账号，见 [`docs/zh/chatgpt.md`](docs/zh/chatgpt.md)）
 - （可选）定时任务功能，用于每周提醒
 
 ## 开源协议

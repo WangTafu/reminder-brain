@@ -2,6 +2,8 @@
 
 The whole thing takes about 15 minutes. Claude does most of the building. You connect an account, paste two pieces of text, and click a few things in Notion.
 
+> Using ChatGPT? The steps are mostly the same; read the differences in [`chatgpt.md`](chatgpt.md) first.
+
 ## What you need
 
 - A Notion account (the free plan is enough)

@@ -10,7 +10,7 @@ Please set up the "reminder-brain" to-do system in my Notion. The project instru
 
 ## Step 0: Ask me first, build only after I confirm
 
-Ask me with choice cards:
+Ask me with choice cards (if there are none, list the options as text and I'll reply):
 1. **Where**: create a new page called "Action Board" in my Notion, or put it under an existing page I name?
 2. **Categories and groups**: the default is below. Ask whether I want to change it. I can add or remove categories, rename them, or change groups:
    - Learning: Reading · Skills · Languages · Courses
@@ -85,14 +85,14 @@ If my categories aren't the default three: one block and one colour per category
 
 ## Step 6: Write working notes
 
-Create a document in this project called "reminder-brain working notes", recording:
+Create a document in this project called "reminder-brain working notes" (if you can't create documents in the project, create a page with that name under the Notion Action Board instead), recording:
 - Each table's name and internal address (database / data source / view IDs or URLs), so future chats can find them directly.
 - The categories and groups I confirmed.
 - The setup date.
 
 ## Step 7: Weekly reminder (if I want one)
 
-Use Claude's scheduled tasks to create a weekly reminder from the template in `prompts/en/weekly-reminder.md`, replacing the placeholders with the real view addresses from Step 6. If scheduled tasks aren't available here, tell me and skip this step.
+Use your scheduled tasks feature to create a weekly reminder from the template in `prompts/en/weekly-reminder.md`, replacing the placeholders with the real view addresses from Step 6. If scheduled tasks aren't available here, tell me and skip this step.
 
 ## Step 8: Tell me what I need to click myself
 

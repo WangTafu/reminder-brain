@@ -2,6 +2,8 @@
 
 整个过程大约 15 分钟。大部分是 Claude 帮你建，你只需要连一下账号、粘贴两段文字、在 Notion 里点几下。
 
+> 用 ChatGPT？步骤基本一样，先看 [`chatgpt.md`](chatgpt.md) 里的差别。
+
 ## 需要准备
 
 - 一个 Notion 账号（免费版就够）

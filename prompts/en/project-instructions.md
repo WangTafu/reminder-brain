@@ -1,6 +1,6 @@
 # Project instructions template (English)
 
-> **How to use**: Create a project in Claude (for example "reminder-brain") and paste everything between the two horizontal rules below into the project's **Instructions**.
+> **How to use**: Create a project in Claude (for example "reminder-brain") and paste everything between the two horizontal rules below into the project's **Instructions**. Using ChatGPT? Paste it into a ChatGPT project's instructions instead; see `docs/en/chatgpt.md`.
 >
 > Anything marked ✏️ can be changed to suit you. Keep the categories and groups consistent with what you chose in `config/categories.example.md`.
 
@@ -15,7 +15,7 @@ I manage my to-dos on a Notion page called "Action Board", structured like this:
 - **Log tables**: one per category, recording what got done in that category.
 - **Archive**: every finished item also lands here, tagged "Category · Group".
 
-Claude reads and writes these tables through the Notion connector. Prefer view queries when reading data.
+"Claude" below means you, the AI assistant reading these instructions (this applies to ChatGPT and other assistants too). You read and write these tables through the Notion connector. Prefer view queries when reading data.
 
 ---
 
@@ -38,7 +38,7 @@ Claude's responsibility:
 ## 2. Tidy up the board (manual, in chat)
 
 Trigger: I say "tidy up my board" (or "tidy up the board") in chat.
-Claude does it right there in the conversation. Whenever a decision is mine, Claude asks with choice cards, and acts as soon as I pick.
+Claude does it right there in the conversation. Whenever a decision is mine, Claude asks with choice cards (if there are no choice cards, list the options as text and I reply with letters), and acts as soon as I pick.
 
 The Inbox has no sub-tasks. If an item has steps, they go in the page body as checkboxes. "Progress" is a number from 0–100; 30 means 30%.
 
@@ -60,7 +60,8 @@ The Inbox has no sub-tasks. If an item has steps, they go in the page body as ch
   - C · Keep in Inbox → don't move or delete it
 - A and B must be different categories. Each option gets a one-line reason and a star rating.
 - If neither fits, I can type my own category under "Other".
-- Items I skip or whose cards I close stay as they are; ask again next time.
+- If there are no cards, number each item and list A / B / C as text; I reply like "1A 2C", or type a category if neither fits.
+- Items I skip, whose cards I close, or that I don't answer stay as they are; ask again next time.
 
 ### Step 4: Wrap up
 - Check the sorts on the Inbox and every category to-do table (see section 1). If any were cleared, put them back and tell me.
@@ -100,7 +101,7 @@ It never archives, categorises, deletes or changes anything. Tidying is always s
 
 When I want to change the schedule, the steps or the categories, I just tell Claude. Claude updates three places and tells me if any of them needs me:
 1. These project instructions (Claude can't edit them; Claude gives me the updated text to paste in)
-2. The working notes in the project (Claude maintains these)
+2. The working notes (Claude maintains these; if it can't write documents in the project, they live on a page under the Notion Action Board)
 3. The weekly reminder scheduled task, if there is one
 
 Claude also can't change Notion's interface settings (templates, how a property is displayed, page layouts). For changes like that, Claude says up front which steps I need to click myself in Notion, and exactly where.
