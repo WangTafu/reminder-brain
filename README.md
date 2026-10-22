@@ -28,7 +28,7 @@ reminder-brain works like this:
 - **Let Claude tidy**: just say "tidy up my board" in your Claude chat, and Claude goes through your Notion and cleans up by the rules already written for it.
 - **You make the calls that matter**: Claude suggests where things go; you confirm with a tap on a choice card.
 - ⭐ **Everything you've done stays, becoming your personal knowledge base**: **every item you log is kept in Notion. You can ask Claude to analyse what you've been doing over the long and short term, to help you plan and build a personal knowledge base.**
-- ⭐ **If you've kept notes in Apple Reminders? No need to start over**: one command on a Mac exports all of Reminders for Claude, and every list, the order, sections and subtasks move into Notion as they are. Nothing you've noted is lost, and Claude helps you tidy it up from there. That's how we moved over ourselves; see [`docs/en/apple-reminders.md`](docs/en/apple-reminders.md).
+- ⭐ **Have you been keeping things in Apple Reminders? No need to start over**: one command on a Mac exports all of Reminders for Claude, and every list, the order, sections and subtasks move into Notion as they are. Nothing you've noted is lost, and Claude helps you tidy it up from there. That's how we moved over ourselves; see [`docs/en/apple-reminders.md`](docs/en/apple-reminders.md).
 
 ## How it works
 
