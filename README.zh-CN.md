@@ -62,6 +62,8 @@ flowchart LR
 
 详细步骤见 [`docs/zh/setup.md`](docs/zh/setup.md)。
 
+> 📥 **原来的待办在 Apple 提醒事项里？** 我们自己就是从提醒事项搬过来的：在 Mac 上用一条命令导出整个提醒事项数据库，交给 Claude，所有列表、顺序、分组、子任务都能原样搬进 Notion。命令和步骤见 [`docs/zh/apple-reminders.md`](docs/zh/apple-reminders.md) 的方法 D。
+
 ## 仓库里有什么
 
 ```
@@ -77,7 +79,7 @@ docs/zh/  docs/en/
   setup.md                      详细搭建步骤
   customize.md                  怎么改：分类、打星、提醒时间、整理流程
   notion-limits.md              Claude 能改什么，什么要你自己在 Notion 里点
-  apple-reminders.md            可选：从 Apple 提醒事项导入
+  apple-reminders.md            可选：从 Apple 提醒事项导入（含 Mac 整库导出）
   faq.md                        常见问题
   example.md                    示例：一次整理前后的样子
 ```
