@@ -79,9 +79,7 @@ docs/zh/  docs/en/
   notion-limits.md              Claude 能改什么，什么要你自己在 Notion 里点
   apple-reminders.md            可选：从 Apple 提醒事项导入
   faq.md                        常见问题
-examples/zh/  examples/en/
-  sample-inbox.md               虚构的速记示例
-  sample-session.md             虚构的一次整理对话
+  example.md                    示例：一次整理前后的样子
 ```
 
 ## 改成你自己的

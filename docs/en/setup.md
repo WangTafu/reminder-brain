@@ -49,7 +49,7 @@ Notion doesn't expose these settings to outside connections, so Claude can't cha
 
 You should see: the ticked item archived into a Log and the Archive; the item with steps given progress 50 and left in the Inbox; and a card from Claude asking which category the last one belongs to.
 
-See `examples/en/sample-session.md` for an example conversation.
+See [`example.md`](example.md) for a full example.
 
 ## Optional: import from Apple Reminders
 

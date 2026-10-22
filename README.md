@@ -79,9 +79,7 @@ docs/en/  docs/zh/
   notion-limits.md              What Claude can change and what you click in Notion
   apple-reminders.md            Optional: import from Apple Reminders
   faq.md                        FAQ
-examples/en/  examples/zh/
-  sample-inbox.md               A made-up Inbox
-  sample-session.md             A made-up tidy-up conversation
+  example.md                    Example: before and after one tidy-up
 ```
 
 ## Make it your own
