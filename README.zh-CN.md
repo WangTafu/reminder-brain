@@ -10,6 +10,10 @@
 
 > 🔍 **先看看效果**：[reminder-brain 示例页](https://reminder-brain.notion.site/reminder-brain-Example-4002191a0dfe80ae81eaef157ec527b0)是用 Notion 搭好的公开示例，条目都是虚构的。打开就能看到搭好以后长什么样，也可以复制到自己的 Notion 里参考。
 
+> 🔍 **先看看效果**：[reminder-brain 示例页](https://reminder-brain.notion.site/reminder-brain-Example-4002191a0dfe80ae81eaef157ec527b0)是用 Notion 搭好的公开示例，条目都是虚构的。打开就能看到搭好以后长什么样，也可以复制到自己的 Notion 里参考。
+
+> 🔍 **先看看效果**：[reminder-brain 示例页](https://reminder-brain.notion.site/reminder-brain-Example-4002191a0dfe80ae81eaef157ec527b0)是用 Notion 搭好的公开示例，条目都是虚构的。打开就能看到搭好以后长什么样，也可以复制到自己的 Notion 里参考。
+
 > 👉 **想直接上手？** 看下面的 [5 步上手](#5-步上手)，详细步骤见 [`docs/zh/setup.md`](docs/zh/setup.md)。
 
 ---
@@ -24,7 +28,7 @@ reminder-brain 的做法是：
 - **整理交给 Claude**：可以和你的 Claude 对话框说一句「整理执行页」，Claude 读一遍你的 Notion，按已经写好的规则帮你收拾。
 - **重要的决定你来做**：分到哪一类，Claude 给建议，你在选择卡片上点一下确认。
 - ⭐ **做过的事都会留下来，成为你的个人信息库**：**所有你录入的事项都会保存在 Notion 里。你可以让 Claude 大脑对你长期、短期做的事情进行分析，更有利于你做规划、构建个人信息库。**
-- ⭐ **已经习惯用 Apple 提醒事项记事？不用从头再来**：在 Mac 上用一条命令把整个提醒事项导出来交给 Claude，所有列表、顺序、分组、子任务都能原样搬进 Notion，之前记下的东西一条不丢，再由 Claude 帮你慢慢整理。我们自己就是这样搬过来的，步骤见 [`docs/zh/apple-reminders.md`](docs/zh/apple-reminders.md)。
+- ⭐ **如果你用 Apple 提醒事项记过事情？不用从头再来**：在 Mac 上用一条命令把整个提醒事项导出来交给 Claude，所有列表、顺序、分组、子任务都能原样搬进 Notion，之前记下的东西一条不丢，再由 Claude 帮你慢慢整理。我们自己就是这样搬过来的，步骤见 [`docs/zh/apple-reminders.md`](docs/zh/apple-reminders.md)。
 
 ## 它是怎么运作的
 
